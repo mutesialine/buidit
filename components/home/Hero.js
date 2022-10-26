@@ -1,7 +1,5 @@
 import Button from "../layout/Button";
-import Image from "next/image";
-import Header from "../layout/header";
-import Head from "next/head";
+import Header from "../layout/Header";
 export default function Hero() {
   return (
     <div className="  z-10 relative bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA] ">

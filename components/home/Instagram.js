@@ -1,5 +1,5 @@
 import Title from "../layout/Title";
-import Card from "../layout/card";
+
 export default function Instagram() {
   return (
     <div className=" bg-[#E1EBFA] flex flex-col items-center pl-[120px] pr-[138px] pt-[120px] pb-[71px] gap-10">
