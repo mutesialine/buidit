@@ -1,16 +1,16 @@
 import Hero from "../components/home/Hero"
 import Innovative from "../components/home/Innovative";
-import Logo from "../components/layout/Logo";
 import Instagram from "../components/home/Instagram";
-import Layout from "../components/layout";
-import Footer from "../components/layout/footer";
+import Footer from "../components/layout/Footer";
 import Explore from "../components/home/Explore";
+import Features from "../components/home/Features";
 export default function Home() {
   return (
     <>
       <Hero />
       <Innovative />
       <Explore/>
+      <Features/>
       <Instagram />
       <Footer />
     </>

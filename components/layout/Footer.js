@@ -12,20 +12,20 @@ export default function Footer() {
         <p>service 1</p>
         <p>service 2</p>
         <p>service 3</p>
-        <p>service 4</p>
+        <p>service 4hjjkkkj;l</p>
       </div>
       <div className="flex flex-col gap-2   ">
-        <p>About us</p>
+        <p>About gfhjklus</p>
         <p>services</p>
         <p>Project</p>
         <p>Contact</p>
       </div>
       <div className="flex flex-col justify-between">
-        <div className="flex flex-col gap-2">
+        <div className="space-y-2">
           <p>Get in touch</p>
           <p>60 Manor Station St. Fairport,<br/> NY 14450s</p>
         </div>
-        <p>708-790-0000 sales<br/>@buildit.site</p>
+        <div>708-790-0000 sales<br/>@buildit.site</div>
       </div>
     </div>
   );

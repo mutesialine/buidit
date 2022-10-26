@@ -1,5 +1,5 @@
 import Text from "../layout/Text";
-import Header from "../layout/header";
+import Header from "../layout/Header";
 export default function Company() {
   return (
     <div className="  relative bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA] ">

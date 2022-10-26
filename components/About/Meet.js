@@ -1,86 +1,25 @@
+import CardImage from "../layout/CardImage";
 import Title from "../layout/Title";
 
 export default function Meet() {
+  const cards = [
+    "/Photo (1).png",
+    "/Photo (2).png",
+    "/Photo (3).png",
+    "/Photo (4).png",
+    "/Photo (5).png",
+    "/Photo (7).png",
+    "/Photo (8).png",
+    "/Photo (9).png",
+    "/Photo (6).png",
+  ];
   return (
     <div className=" bg-[#E1EBFA] flex flex-col items-center pl-[120px] pr-[138px] pt-[120px] pb-[71px] gap-10">
       <Title title="Social" subtitle="Instagram" />
-      <div className=" flex space-x-10" flex>
-        <div>
-          <img className="" src="/Photo (1).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">Name Surname</h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-        <div className="">
-          <img src="/Photo (2).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">
-              {" "}
-              Name Surname
-            </h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-        <div className="">
-          <img src="/Photo (4).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">Name Surname</h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-      </div>
-      <div className=" flex space-x-10" flex>
-        <div className=" ">
-          <img src="/Photo (5).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">Name Surname</h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-        <div className="">
-          <img src="/Photo (6).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">Name Surname</h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-        <div className="">
-          <img src="/Photo (7).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">
-              {" "}
-              Name Surname
-            </h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-      </div>
-      <div className=" flex space-x-10" flex>
-        <div className="">
-          <img src="/Photo (3).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">Name Surname</h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-        <div className="">
-          <img src="/Photo (4).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">Name Surname</h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
-        <div className="">
-          <img src="/Photo (9).png" />
-          <div className="space-y-2 px-2 py-4   bg-blue-200 rounded-b-xl">
-            <h3 className="font-bold text-base text-[#486A6F]">
-              {" "}
-              Name Surname
-            </h3>
-            <p className="text-[#486A6F]">Worker</p>
-          </div>
-        </div>
+      <div className="grid grid-cols-3 gap-10">
+        {cards.map((card) => (
+          <CardImage image={card} />
+        ))}
       </div>
     </div>
   );

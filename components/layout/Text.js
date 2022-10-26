@@ -1,4 +1,4 @@
-export default function Text(){
+export default function Text({title ,subtitle ,Description}){
   return (
     <div className=" flex flex-col  space-y-5 w-[540px]">
       <p className="text-[#5BCCDE] text-base">About us</p>
