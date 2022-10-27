@@ -9,7 +9,10 @@ export default function Company() {
           <img src="Photos1.png" />
         </div>
         <div className="flex py-10 flex-col gap-5 ">
-          <Text />
+          <Text
+            title="About us"
+            subtitle="Owner and investor with a reputation"
+          />
         </div>
       </div>
     </div>

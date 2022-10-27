@@ -20,8 +20,8 @@ export default function Hero() {
           <div className="space-x-4">
             <Button text="Services" />
             <Button
-              className="py-4 px-16 bg-[#C6DBFF] text-black rounded-xl"
-              text="learn"
+              className="px-4 py-3 bg-[#C6DBFF] text-[#678C92] rounded-xl"
+              text="About the company"
             />
           </div>
         </div>

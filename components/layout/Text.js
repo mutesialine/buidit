@@ -1,9 +1,9 @@
 export default function Text({title ,subtitle ,Description}){
   return (
     <div className=" flex flex-col  space-y-5 w-[540px]">
-      <p className="text-[#5BCCDE] text-base">About us</p>
+      <p className="text-[#5BCCDE] text-base">{title}</p>
       <h2 className="text-[#486A6F] font-bold text-4xl">
-        Owner and investor with a reputation
+        {subtitle}
       </h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit sem,

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   return (
     <div className=" flex justify-between text-[#F4F7FF]  bg-[#486A6F] pl-[120px] pr-[138px] pt-[83px] pb-[133px] ">
@@ -9,16 +10,16 @@ export default function Footer() {
         <div>Site design – hj⏰ Alarm</div>
       </div>
       <div className="flex flex-col gap-2">
-        <p>service 1</p>
-        <p>service 2</p>
-        <p>service 3</p>
-        <p>service 4hjjkkkj;l</p>
+        <Link href="/Services">service 1</Link>
+        <Link href="/Services">service 2</Link>
+        <Link href="/Services">service 3</Link>
+        <Link href="/Services">service 4</Link>
       </div>
       <div className="flex flex-col gap-2   ">
-        <p>About gfhjklus</p>
-        <p>services</p>
-        <p>Project</p>
-        <p>Contact</p>
+        <Link href="/About">About</Link>
+        <Link href="/Services">services</Link>
+        <Link href="/Project">Project</Link >
+        <Link href="Contact">Contact</Link>
       </div>
       <div className="flex flex-col justify-between">
         <div className="space-y-2">
