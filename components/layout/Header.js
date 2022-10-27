@@ -18,15 +18,17 @@ export default function Header () {
             <Link href="/Services">Services</Link>
           </li>
           <li>
-            <Link href="">Projects</Link>
+            <Link href="/Project">Projects</Link>
           </li>
           <li>
-            <Link href="">Contacts</Link>
+            <Link href="/Contact">Contact</Link>
           </li>
         </ul>
       </div>
       <div>
-        <Button text="Need a projects" />
+      
+          <Button text="Need a projects" />
+    
       </div>
     </div>
   );
